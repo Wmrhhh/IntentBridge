@@ -11,8 +11,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "aiAssistant.hello",
-        "title": "AI Assistant: Hello"
+        "command": "intentBridge.open",
+        "title": "IntentBridge: Open"
       }
     ]
   },
