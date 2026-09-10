@@ -1,0 +1,26 @@
+{
+  "name": "ai-assistant",
+  "displayName": "AI Assistant",
+  "description": "A minimal AI Assistant extension.",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "aiAssistant.hello",
+        "title": "AI Assistant: Hello"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "1.74.0",
+    "typescript": "~5.9.3"
+  }
+}
