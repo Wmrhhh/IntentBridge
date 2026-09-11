@@ -1,6 +1,6 @@
 {
-  "name": "ai-assistant",
-  "displayName": "AI Assistant",
+  "name": "intent-bridge",
+  "displayName": "IntentBridge",
   "description": "A minimal AI Assistant extension.",
   "version": "0.0.1",
   "private": true,
@@ -20,6 +20,7 @@
     "compile": "tsc -p ./"
   },
   "devDependencies": {
+    "@types/node": "^22.20.2",
     "@types/vscode": "1.74.0",
     "typescript": "~5.9.3"
   }
